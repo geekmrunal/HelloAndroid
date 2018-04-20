@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3C49"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity1"
+        android:id="@+id/logo_image"
+        />
+    <TextView
+        android:id="@+id/world-class-text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo_image"
+        android:textSize="16sp"
+        android:text="World-Class nanodegree programs!"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
+
+        />
+
+    <TextView
+        android:id="@+id/jobs_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/world-class-text"
+        android:layout_marginTop="10dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Jobs of Tomorrow Starts Here "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/jobs_text"
+        android:background="@android:color/holo_blue_bright"
+        />
+    <LinearLayout
+        android:id="@+id/address-text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="75sp"
+        android:layout_centerVertical="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Udacity"
+            android:layout_marginBottom="16sp"
+            android:layout_marginTop="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="2465 Latham Street"
+            android:layout_marginBottom="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Mountain View , CA , 94043"
+            android:layout_marginBottom="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="650-555-5555"
+            android:layout_marginBottom="16sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/website_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:background="@android:color/holo_blue_bright"
+        android:text="www.udacity.com"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
